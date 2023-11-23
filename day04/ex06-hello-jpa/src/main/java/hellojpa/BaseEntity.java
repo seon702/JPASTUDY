@@ -1,4 +1,4 @@
-package org.domain;
+package hellojpa;
 
 import javax.persistence.Column;
 import javax.persistence.MappedSuperclass;

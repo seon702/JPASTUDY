@@ -2,7 +2,8 @@ package hellojpa;
 
 import lombok.Data;
 
-import javax.persistence.*;
+import javax.persistence.DiscriminatorValue;
+import javax.persistence.Entity;
 
 @Entity
 @Data

@@ -1,12 +1,26 @@
 package org.domain;
 
-import lombok.Data;
-
 import javax.persistence.Entity;
 
 @Entity
-@Data
 public class Movie extends Item {
-    public String director;
-    public String actor;
+
+    private String director;
+    private String actor;
+
+    public String getDirector() {
+        return director;
+    }
+
+    public void setDirector(String director) {
+        this.director = director;
+    }
+
+    public String getActor() {
+        return actor;
+    }
+
+    public void setActor(String actor) {
+        this.actor = actor;
+    }
 }
